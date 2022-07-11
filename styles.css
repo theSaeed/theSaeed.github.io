@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+}
+
+html {
+    background-color: black;
+    height: 100%;
+}
+
+body {
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 5em;
+    line-height: 0.8em;
+}
+
+p {
+    color: rgb(200, 200, 200);
+    padding-top: 0.5em;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-size: 2em;
+}
+
+.for-protection {
+    display: none;
+}
+
+#the-link {
+    text-decoration: none;
+    color: rgb(200, 200, 200);
+    transition: all 0.3s;
+}
+#the-link:hover {
+    color: rgb(150, 150, 150);
+    transition: all 0.1s;
+}
