@@ -4,6 +4,7 @@
 
 html {
     background-color: black;
+    color: white;
     height: 100%;
 }
 
@@ -24,12 +25,23 @@ h1 {
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 5em;
     line-height: 0.8em;
+    /* margin: 0.5em; */
+}
+
+h2 {
+    color: rgb(150, 150, 150);
+    font-family: 'PT Sans Narrow', sans-serif;
+    /* font-family: 'Edu VIC WA NT Beginner', cursive; */
+    font-size: 2em;
+    line-height: 0.8em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
 }
 
 p {
     color: rgb(200, 200, 200);
     padding-top: 0.5em;
-    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Source Sans Pro', Calibri, sans-serif;
     font-size: 2em;
 }
 
@@ -37,12 +49,23 @@ p {
     display: none;
 }
 
-#the-link {
+p a {
     text-decoration: none;
     color: rgb(200, 200, 200);
     transition: all 0.3s;
 }
-#the-link:hover {
+p a:hover {
     color: rgb(150, 150, 150);
     transition: all 0.1s;
+}
+p a:active {
+    color: rgb(100, 100, 100);
+    font-size: 0.98em;
+    transition: all 0.1s;
+}
+
+#footer {
+    margin-top: 2em;
+    font-size: 1em;
+    font-style: italic;
 }
